@@ -34,7 +34,7 @@ class owncloud (
     }
   }
 
-  # descargar deb7 :: bin directament :: http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_7.0/amd64/owncloud-client_1.8.4-1_amd64.deb
+# descargar deb7 :: bin directament :: http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_7.0/amd64/owncloud-client_1.8.4-1_amd64.deb
 
   package { 'owncloud':
     ensure => present,
@@ -42,7 +42,7 @@ class owncloud (
 
 
 
-  # generar els instalar owncloud
-  #
+# generar els instalar owncloud
+#
 
 }
